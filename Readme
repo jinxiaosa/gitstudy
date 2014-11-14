@@ -14,3 +14,7 @@ Build the empty git repos
 
 $git init --bare .git
 
+3. Clone the project to local machine
+
+git clone ssh://git@oe-wicp.net/volume1/github/GitStudy/.git
+
