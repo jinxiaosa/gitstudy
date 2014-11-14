@@ -10,11 +10,20 @@ Create project folder like :/volume1/github/GitStudy
 
 $cd GitStudy
 
-Build the empty git repos
+Build an empty git repos
 
 $git init --bare .git
+
+Note: .git could have another name like myproject.git or whatever you like.
 
 3. Clone the project to local machine
 
 git clone ssh://git@oe-wicp.net/volume1/github/GitStudy/.git
 
+4. Modify a file
+
+Create a file like Readme
+
+Add some material, add to stage, commit to the repos on local machine and push to the remote server.
+
+Modify some lines (add or remove), commit again.
