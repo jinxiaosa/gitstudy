@@ -1,0 +1,16 @@
+The Step to setup a private git server
+
+1. SSH to the NAS server 
+
+Create the folder like : /volume1/github/
+
+2. Create an Empty Repos on Nas Server
+
+Create project folder like :/volume1/github/GitStudy
+
+$cd GitStudy
+
+Build the empty git repos
+
+$git init --bare .git
+
