@@ -27,3 +27,18 @@ Create a file like Readme
 Add some material, add to stage, commit to the repos on local machine and push to the remote server.
 
 Modify some lines (add or remove), commit again.
+
+5. Try Collabration
+
+<1> Rebase and push to the remote server
+
+Clone the repository on Machine B
+
+Create a file A.txt add "writing by GitStuday_A" in Machine A, and push to remote.
+
+Use machine B Create the same file A.txt and writing "GitStuday_B write a better line".
+
+Machine B push and conflict. 
+
+Use rebase to fix the problem and push to the remote.
+
